@@ -1,0 +1,27 @@
+{
+  "name": "listingcam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "feed.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-binary-linux-64bit": "^0.1.0",
+    "file-size": "^1.0.0",
+    "forever": "^0.15.2",
+    "fs-extra": "^0.30.0",
+    "gm": "^1.22.0",
+    "lwip": "0.0.9",
+    "moment": "^2.13.0",
+    "phantomjs": "^2.1.7",
+    "ps-tree": "^1.1.0",
+    "request": "^2.72.0",
+    "sleep": "^3.0.1",
+    "suncalc": "^1.7.0"
+  }
+}
