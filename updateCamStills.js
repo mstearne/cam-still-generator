@@ -6,7 +6,7 @@ var fse = require('fs-extra');
 var filesize = require('file-size');
 var SunCalc = require('suncalc');
 var sleep = require('sleep');
-require('dotenv').config();
+require('dotenv').config({path: __dirname+'/.env'});
 var psTree = require('ps-tree');
 var gm = require('gm');
 var imageMagick = gm.subClass({ imageMagick: true });
